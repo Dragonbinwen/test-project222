@@ -1,0 +1,5 @@
+1、实现了统一的request方法封装，能够支持get/post/put/delete等请求方法
+2、通过TestNG的DataProvider机制实现数据驱动测试
+    通过Excel来维护我们的接口用例（编号、标题、优先级、请求方法、接口地址、请求头、请求参数...）
+    通过Java代码将Excel中的用例数据读取出来-阿里巴巴的EasyExcel
+    通过DataProvider设置数据提供源，将其注入到测试方法中执行

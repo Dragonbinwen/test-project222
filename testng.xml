@@ -1,0 +1,25 @@
+<!--<?xml version="1.0" encoding="utf-8" ?>-->
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >-->
+<!--<suite name="测试套件" >-->
+<!--    <test name="测试">-->
+<!--        <classes>-->
+<!--            <class name="com.test.day08.testcases.LoginTest"/>-->
+<!--            <class name="com.test.day08.testcases.SearchTest"/>-->
+<!--            <class name="com.test.day08.testcases.OrderPayTest"/>-->
+<!--            <class name="com.test.day08.testcases.ModifyPortraitTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1">
+    <!-- 全局添加 Allure 监听器 -->
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Test">
+        <classes>
+            <class name="com.test.day11.testcases.RegisterTest"/>
+        </classes>
+    </test>
+</suite>

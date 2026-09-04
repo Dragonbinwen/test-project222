@@ -1,0 +1,326 @@
+2026-08-16 12:25:48 INFO  Log4jTest:13 - 这是info模式的日志
+2026-08-16 12:25:48 WARN  Log4jTest:14 - 这是warn模式的日志
+2026-08-16 12:25:48 ERROR Log4jTest:15 - 这是error模式的日志
+2026-08-16 12:26:13 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:13 INFO  BaseTest:27 - 请求方法:post
+2026-08-16 12:26:13 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:26:13 INFO  BaseTest:29 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:26:13 INFO  BaseTest:30 - 请求参数:{"principal":"lemon_auto","credentials":"lemon123456","appType":3,"loginType":0}
+2026-08-16 12:26:15 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:15 INFO  BaseTest:56 - 响应状态码:200
+2026-08-16 12:26:15 INFO  BaseTest:57 - 响应时间:739ms
+2026-08-16 12:26:15 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Set-Cookie=JSESSIONID=E1F9594008198CE863F2BEA0B99D7DE0; Path=/; HttpOnly, Content-Type=application/json;charset=UTF-8, Content-Length=319, Date=Sun, 16 Aug 2026 04:26:15 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-08-16 12:26:15 INFO  BaseTest:59 - 响应体:{"access_token":"386b2892-7d59-4b6c-99ac-a9308be324e9","token_type":"bearer","refresh_token":"06662625-4d41-4fe1-afb0-5122ca480cc2","expires_in":1295999,"pic":"http://shop.lemonban.com:8108/2026/08/bcfc99c64a204585bc345f9d5b50d189.png","userId":"09285971140c45218e69d90636c04dbe","nickName":"lemon_auto","enabled":true}
+2026-08-16 12:26:16 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:16 INFO  BaseTest:27 - 请求方法:Post
+2026-08-16 12:26:16 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:26:16 INFO  BaseTest:29 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:26:16 INFO  BaseTest:30 - 请求参数:{"principal":"lemon_auto","credentials":"lemon123","appType":3,"loginType":0}
+2026-08-16 12:26:16 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:16 INFO  BaseTest:56 - 响应状态码:400
+2026-08-16 12:26:16 INFO  BaseTest:57 - 响应时间:189ms
+2026-08-16 12:26:16 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:26:15 GMT, Connection=close]
+2026-08-16 12:26:16 INFO  BaseTest:59 - 响应体:Incorrect account or password
+2026-08-16 12:26:16 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:16 INFO  BaseTest:27 - 请求方法:POST
+2026-08-16 12:26:16 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:26:16 INFO  BaseTest:29 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:26:16 INFO  BaseTest:30 - 请求参数:{"principal":"","credentials":"lemon123","appType":3,"loginType":0}
+2026-08-16 12:26:16 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:16 INFO  BaseTest:56 - 响应状态码:400
+2026-08-16 12:26:16 INFO  BaseTest:57 - 响应时间:107ms
+2026-08-16 12:26:16 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:26:16 GMT, Connection=close]
+2026-08-16 12:26:16 INFO  BaseTest:59 - 响应体:Incorrect account or password
+2026-08-16 12:26:16 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:16 INFO  BaseTest:27 - 请求方法:POST
+2026-08-16 12:26:16 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:26:16 INFO  BaseTest:29 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:26:16 INFO  BaseTest:30 - 请求参数:{"principal":"lemonlemon666","credentials":"lemon123","appType":3,"loginType":0}
+2026-08-16 12:26:16 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:16 INFO  BaseTest:56 - 响应状态码:400
+2026-08-16 12:26:16 INFO  BaseTest:57 - 响应时间:97ms
+2026-08-16 12:26:16 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:26:16 GMT, Connection=close]
+2026-08-16 12:26:16 INFO  BaseTest:59 - 响应体:Incorrect account or password
+2026-08-16 12:26:16 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:16 INFO  BaseTest:27 - 请求方法:POST
+2026-08-16 12:26:16 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:26:16 INFO  BaseTest:29 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:26:16 INFO  BaseTest:30 - 请求参数:{"principal":"lemon_auto","credentials":"","appType":3,"loginType":0}
+2026-08-16 12:26:16 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:16 INFO  BaseTest:56 - 响应状态码:400
+2026-08-16 12:26:16 INFO  BaseTest:57 - 响应时间:221ms
+2026-08-16 12:26:16 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:26:16 GMT, Connection=close]
+2026-08-16 12:26:16 INFO  BaseTest:59 - 响应体:Incorrect account or password
+2026-08-16 12:26:16 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:16 INFO  BaseTest:27 - 请求方法:POST
+2026-08-16 12:26:16 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:26:16 INFO  BaseTest:29 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:26:16 INFO  BaseTest:30 - 请求参数:{"principal":"lemon_auto111111111111111","credentials":"lemon123456","appType":3,"loginType":0}
+2026-08-16 12:26:16 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:16 INFO  BaseTest:56 - 响应状态码:400
+2026-08-16 12:26:16 INFO  BaseTest:57 - 响应时间:92ms
+2026-08-16 12:26:16 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:26:16 GMT, Connection=close]
+2026-08-16 12:26:16 INFO  BaseTest:59 - 响应体:Incorrect account or password
+2026-08-16 12:26:23 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:23 INFO  BaseTest:27 - 请求方法:get
+2026-08-16 12:26:23 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/search/searchProdPage
+2026-08-16 12:26:23 INFO  BaseTest:29 - 请求头:null
+2026-08-16 12:26:23 INFO  BaseTest:30 - 请求参数:?prodName=duck
+2026-08-16 12:26:24 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:24 INFO  BaseTest:56 - 响应状态码:200
+2026-08-16 12:26:24 INFO  BaseTest:57 - 响应时间:544ms
+2026-08-16 12:26:24 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sun, 16 Aug 2026 04:26:24 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-08-16 12:26:24 INFO  BaseTest:59 - 响应体:{"records":[],"total":0,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"hitCount":false,"countId":null,"maxLimit":null,"searchCount":true,"pages":0}
+2026-08-16 12:26:25 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:25 INFO  BaseTest:27 - 请求方法:get
+2026-08-16 12:26:25 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/search/searchProdPage
+2026-08-16 12:26:25 INFO  BaseTest:29 - 请求头:null
+2026-08-16 12:26:25 INFO  BaseTest:30 - 请求参数:?prodName=XXXXX
+2026-08-16 12:26:25 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:25 INFO  BaseTest:56 - 响应状态码:200
+2026-08-16 12:26:25 INFO  BaseTest:57 - 响应时间:103ms
+2026-08-16 12:26:25 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sun, 16 Aug 2026 04:26:24 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-08-16 12:26:25 INFO  BaseTest:59 - 响应体:{"records":[],"total":0,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"hitCount":false,"countId":null,"maxLimit":null,"searchCount":true,"pages":0}
+2026-08-16 12:26:32 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:32 INFO  BaseTest:27 - 请求方法:post
+2026-08-16 12:26:32 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:26:32 INFO  BaseTest:29 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:26:32 INFO  BaseTest:30 - 请求参数:{"principal":"lemon_auto","credentials":"lemon123456","appType":3,"loginType":0}
+2026-08-16 12:26:34 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:34 INFO  BaseTest:56 - 响应状态码:200
+2026-08-16 12:26:34 INFO  BaseTest:57 - 响应时间:625ms
+2026-08-16 12:26:34 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Set-Cookie=JSESSIONID=763175AE385F72BF198E06688C111E56; Path=/; HttpOnly, Content-Type=application/json;charset=UTF-8, Content-Length=319, Date=Sun, 16 Aug 2026 04:26:33 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-08-16 12:26:34 INFO  BaseTest:59 - 响应体:{"access_token":"7c3b7c13-4849-46fc-96a4-149f265c65d9","token_type":"bearer","refresh_token":"c9f99a45-6572-4527-90b2-12bd652f6eea","expires_in":1295999,"pic":"http://shop.lemonban.com:8108/2026/08/bcfc99c64a204585bc345f9d5b50d189.png","userId":"09285971140c45218e69d90636c04dbe","nickName":"lemon_auto","enabled":true}
+2026-08-16 12:26:34 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:34 INFO  BaseTest:27 - 请求方法:Post
+2026-08-16 12:26:34 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:26:34 INFO  BaseTest:29 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:26:34 INFO  BaseTest:30 - 请求参数:{"principal":"lemon_auto","credentials":"lemon123","appType":3,"loginType":0}
+2026-08-16 12:26:35 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:35 INFO  BaseTest:56 - 响应状态码:400
+2026-08-16 12:26:35 INFO  BaseTest:57 - 响应时间:180ms
+2026-08-16 12:26:35 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:26:33 GMT, Connection=close]
+2026-08-16 12:26:35 INFO  BaseTest:59 - 响应体:Incorrect account or password
+2026-08-16 12:26:35 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:35 INFO  BaseTest:27 - 请求方法:POST
+2026-08-16 12:26:35 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:26:35 INFO  BaseTest:29 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:26:35 INFO  BaseTest:30 - 请求参数:{"principal":"","credentials":"lemon123","appType":3,"loginType":0}
+2026-08-16 12:26:35 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:35 INFO  BaseTest:56 - 响应状态码:400
+2026-08-16 12:26:35 INFO  BaseTest:57 - 响应时间:98ms
+2026-08-16 12:26:35 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:26:35 GMT, Connection=close]
+2026-08-16 12:26:35 INFO  BaseTest:59 - 响应体:Incorrect account or password
+2026-08-16 12:26:35 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:35 INFO  BaseTest:27 - 请求方法:POST
+2026-08-16 12:26:35 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:26:35 INFO  BaseTest:29 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:26:35 INFO  BaseTest:30 - 请求参数:{"principal":"lemonlemon666","credentials":"lemon123","appType":3,"loginType":0}
+2026-08-16 12:26:35 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:35 INFO  BaseTest:56 - 响应状态码:400
+2026-08-16 12:26:35 INFO  BaseTest:57 - 响应时间:103ms
+2026-08-16 12:26:35 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:26:35 GMT, Connection=close]
+2026-08-16 12:26:35 INFO  BaseTest:59 - 响应体:Incorrect account or password
+2026-08-16 12:26:35 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:35 INFO  BaseTest:27 - 请求方法:POST
+2026-08-16 12:26:35 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:26:35 INFO  BaseTest:29 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:26:35 INFO  BaseTest:30 - 请求参数:{"principal":"lemon_auto","credentials":"","appType":3,"loginType":0}
+2026-08-16 12:26:35 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:35 INFO  BaseTest:56 - 响应状态码:400
+2026-08-16 12:26:35 INFO  BaseTest:57 - 响应时间:206ms
+2026-08-16 12:26:35 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:26:35 GMT, Connection=close]
+2026-08-16 12:26:35 INFO  BaseTest:59 - 响应体:Incorrect account or password
+2026-08-16 12:26:35 INFO  BaseTest:26 - =================请求信息=================
+2026-08-16 12:26:35 INFO  BaseTest:27 - 请求方法:POST
+2026-08-16 12:26:35 INFO  BaseTest:28 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:26:35 INFO  BaseTest:29 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:26:35 INFO  BaseTest:30 - 请求参数:{"principal":"lemon_auto111111111111111","credentials":"lemon123456","appType":3,"loginType":0}
+2026-08-16 12:26:35 INFO  BaseTest:55 - =================响应信息=================
+2026-08-16 12:26:35 INFO  BaseTest:56 - 响应状态码:400
+2026-08-16 12:26:35 INFO  BaseTest:57 - 响应时间:94ms
+2026-08-16 12:26:35 INFO  BaseTest:58 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:26:35 GMT, Connection=close]
+2026-08-16 12:26:35 INFO  BaseTest:59 - 响应体:Incorrect account or password
+2026-08-16 12:26:59 INFO  BaseTest:28 - =================请求信息=================
+2026-08-16 12:26:59 INFO  BaseTest:29 - 请求方法:post
+2026-08-16 12:26:59 INFO  BaseTest:30 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:26:59 INFO  BaseTest:31 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:26:59 INFO  BaseTest:32 - 请求参数:{"principal":"lemon_auto","credentials":"lemon123456","appType":3,"loginType":0}
+2026-08-16 12:27:00 INFO  BaseTest:58 - =================响应信息=================
+2026-08-16 12:27:00 INFO  BaseTest:59 - 响应状态码:200
+2026-08-16 12:27:00 INFO  BaseTest:60 - 响应时间:643ms
+2026-08-16 12:27:00 INFO  BaseTest:61 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Set-Cookie=JSESSIONID=677465AD1FC84A60C12B0FB785CFB3B1; Path=/; HttpOnly, Content-Type=application/json;charset=UTF-8, Content-Length=319, Date=Sun, 16 Aug 2026 04:27:00 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-08-16 12:27:00 INFO  BaseTest:62 - 响应体:{"access_token":"f74f5733-d68b-4b22-8877-3e3af3914029","token_type":"bearer","refresh_token":"459f604e-94d6-4a72-8af5-5b71ac16cf98","expires_in":1295999,"pic":"http://shop.lemonban.com:8108/2026/08/bcfc99c64a204585bc345f9d5b50d189.png","userId":"09285971140c45218e69d90636c04dbe","nickName":"lemon_auto","enabled":true}
+2026-08-16 12:27:00 INFO  BaseTest:74 - =================断言信息=================
+2026-08-16 12:27:00 INFO  BaseTest:81 - http响应状态码断言，实际值【200】期望值【200】
+2026-08-16 12:27:01 INFO  BaseTest:94 - 响应字段断言，提取响应字段【nickName】实际值【lemon_auto】期望值【lemon_auto】
+2026-08-16 12:27:01 INFO  BaseTest:94 - 响应字段断言，提取响应字段【token_type】实际值【bearer】期望值【bearer】
+2026-08-16 12:27:01 INFO  BaseTest:28 - =================请求信息=================
+2026-08-16 12:27:01 INFO  BaseTest:29 - 请求方法:Post
+2026-08-16 12:27:01 INFO  BaseTest:30 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:27:01 INFO  BaseTest:31 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:27:01 INFO  BaseTest:32 - 请求参数:{"principal":"lemon_auto","credentials":"lemon123","appType":3,"loginType":0}
+2026-08-16 12:27:01 INFO  BaseTest:58 - =================响应信息=================
+2026-08-16 12:27:01 INFO  BaseTest:59 - 响应状态码:400
+2026-08-16 12:27:01 INFO  BaseTest:60 - 响应时间:196ms
+2026-08-16 12:27:01 INFO  BaseTest:61 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:27:00 GMT, Connection=close]
+2026-08-16 12:27:01 INFO  BaseTest:62 - 响应体:Incorrect account or password
+2026-08-16 12:27:01 INFO  BaseTest:74 - =================断言信息=================
+2026-08-16 12:27:01 INFO  BaseTest:81 - http响应状态码断言，实际值【400】期望值【400】
+2026-08-16 12:27:01 INFO  BaseTest:87 - 响应体文本断言，实际值【Incorrect account or password】期望值【账号或密码不正确】
+2026-08-16 12:27:01 INFO  BaseTest:28 - =================请求信息=================
+2026-08-16 12:27:01 INFO  BaseTest:29 - 请求方法:POST
+2026-08-16 12:27:01 INFO  BaseTest:30 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:27:01 INFO  BaseTest:31 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:27:01 INFO  BaseTest:32 - 请求参数:{"principal":"","credentials":"lemon123","appType":3,"loginType":0}
+2026-08-16 12:27:01 INFO  BaseTest:58 - =================响应信息=================
+2026-08-16 12:27:01 INFO  BaseTest:59 - 响应状态码:400
+2026-08-16 12:27:01 INFO  BaseTest:60 - 响应时间:92ms
+2026-08-16 12:27:01 INFO  BaseTest:61 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:27:01 GMT, Connection=close]
+2026-08-16 12:27:01 INFO  BaseTest:62 - 响应体:Incorrect account or password
+2026-08-16 12:27:01 INFO  BaseTest:74 - =================断言信息=================
+2026-08-16 12:27:01 INFO  BaseTest:81 - http响应状态码断言，实际值【400】期望值【400】
+2026-08-16 12:27:01 INFO  BaseTest:87 - 响应体文本断言，实际值【Incorrect account or password】期望值【账号或密码不正确】
+2026-08-16 12:27:01 INFO  BaseTest:28 - =================请求信息=================
+2026-08-16 12:27:01 INFO  BaseTest:29 - 请求方法:POST
+2026-08-16 12:27:01 INFO  BaseTest:30 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:27:01 INFO  BaseTest:31 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:27:01 INFO  BaseTest:32 - 请求参数:{"principal":"lemonlemon666","credentials":"lemon123","appType":3,"loginType":0}
+2026-08-16 12:27:01 INFO  BaseTest:58 - =================响应信息=================
+2026-08-16 12:27:01 INFO  BaseTest:59 - 响应状态码:400
+2026-08-16 12:27:01 INFO  BaseTest:60 - 响应时间:91ms
+2026-08-16 12:27:01 INFO  BaseTest:61 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:27:01 GMT, Connection=close]
+2026-08-16 12:27:01 INFO  BaseTest:62 - 响应体:Incorrect account or password
+2026-08-16 12:27:01 INFO  BaseTest:74 - =================断言信息=================
+2026-08-16 12:27:01 INFO  BaseTest:81 - http响应状态码断言，实际值【400】期望值【400】
+2026-08-16 12:27:01 INFO  BaseTest:87 - 响应体文本断言，实际值【Incorrect account or password】期望值【账号或密码不正确】
+2026-08-16 12:27:01 INFO  BaseTest:28 - =================请求信息=================
+2026-08-16 12:27:01 INFO  BaseTest:29 - 请求方法:POST
+2026-08-16 12:27:01 INFO  BaseTest:30 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:27:01 INFO  BaseTest:31 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:27:01 INFO  BaseTest:32 - 请求参数:{"principal":"lemon_auto","credentials":"","appType":3,"loginType":0}
+2026-08-16 12:27:02 INFO  BaseTest:58 - =================响应信息=================
+2026-08-16 12:27:02 INFO  BaseTest:59 - 响应状态码:400
+2026-08-16 12:27:02 INFO  BaseTest:60 - 响应时间:175ms
+2026-08-16 12:27:02 INFO  BaseTest:61 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:27:01 GMT, Connection=close]
+2026-08-16 12:27:02 INFO  BaseTest:62 - 响应体:Incorrect account or password
+2026-08-16 12:27:02 INFO  BaseTest:74 - =================断言信息=================
+2026-08-16 12:27:02 INFO  BaseTest:81 - http响应状态码断言，实际值【400】期望值【400】
+2026-08-16 12:27:02 INFO  BaseTest:87 - 响应体文本断言，实际值【Incorrect account or password】期望值【账号或密码不正确】
+2026-08-16 12:27:02 INFO  BaseTest:28 - =================请求信息=================
+2026-08-16 12:27:02 INFO  BaseTest:29 - 请求方法:POST
+2026-08-16 12:27:02 INFO  BaseTest:30 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:27:02 INFO  BaseTest:31 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:27:02 INFO  BaseTest:32 - 请求参数:{"principal":"lemon_auto111111111111111","credentials":"lemon123456","appType":3,"loginType":0}
+2026-08-16 12:27:02 INFO  BaseTest:58 - =================响应信息=================
+2026-08-16 12:27:02 INFO  BaseTest:59 - 响应状态码:400
+2026-08-16 12:27:02 INFO  BaseTest:60 - 响应时间:104ms
+2026-08-16 12:27:02 INFO  BaseTest:61 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:27:01 GMT, Connection=close]
+2026-08-16 12:27:02 INFO  BaseTest:62 - 响应体:Incorrect account or password
+2026-08-16 12:27:02 INFO  BaseTest:74 - =================断言信息=================
+2026-08-16 12:27:02 INFO  BaseTest:81 - http响应状态码断言，实际值【400】期望值【400】
+2026-08-16 12:27:02 INFO  BaseTest:87 - 响应体文本断言，实际值【Incorrect account or password】期望值【账号或密码不正确】
+2026-08-16 12:27:09 INFO  BaseTest:28 - =================请求信息=================
+2026-08-16 12:27:09 INFO  BaseTest:29 - 请求方法:get
+2026-08-16 12:27:09 INFO  BaseTest:30 - 请求地址:http://mall.lemonban.com:8107/search/searchProdPage
+2026-08-16 12:27:09 INFO  BaseTest:31 - 请求头:null
+2026-08-16 12:27:09 INFO  BaseTest:32 - 请求参数:?prodName=duck
+2026-08-16 12:27:10 INFO  BaseTest:58 - =================响应信息=================
+2026-08-16 12:27:10 INFO  BaseTest:59 - 响应状态码:200
+2026-08-16 12:27:10 INFO  BaseTest:60 - 响应时间:498ms
+2026-08-16 12:27:10 INFO  BaseTest:61 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sun, 16 Aug 2026 04:27:10 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-08-16 12:27:10 INFO  BaseTest:62 - 响应体:{"records":[],"total":0,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"hitCount":false,"countId":null,"maxLimit":null,"searchCount":true,"pages":0}
+2026-08-16 12:27:10 INFO  BaseTest:74 - =================断言信息=================
+2026-08-16 12:27:10 INFO  BaseTest:81 - http响应状态码断言，实际值【200】期望值【200】
+2026-08-16 12:27:11 INFO  BaseTest:28 - =================请求信息=================
+2026-08-16 12:27:11 INFO  BaseTest:29 - 请求方法:get
+2026-08-16 12:27:11 INFO  BaseTest:30 - 请求地址:http://mall.lemonban.com:8107/search/searchProdPage
+2026-08-16 12:27:11 INFO  BaseTest:31 - 请求头:null
+2026-08-16 12:27:11 INFO  BaseTest:32 - 请求参数:?prodName=XXXXX
+2026-08-16 12:27:11 INFO  BaseTest:58 - =================响应信息=================
+2026-08-16 12:27:11 INFO  BaseTest:59 - 响应状态码:200
+2026-08-16 12:27:11 INFO  BaseTest:60 - 响应时间:93ms
+2026-08-16 12:27:11 INFO  BaseTest:61 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sun, 16 Aug 2026 04:27:10 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-08-16 12:27:11 INFO  BaseTest:62 - 响应体:{"records":[],"total":0,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"hitCount":false,"countId":null,"maxLimit":null,"searchCount":true,"pages":0}
+2026-08-16 12:27:11 INFO  BaseTest:74 - =================断言信息=================
+2026-08-16 12:27:11 INFO  BaseTest:81 - http响应状态码断言，实际值【200】期望值【200】
+2026-08-16 12:27:11 INFO  BaseTest:94 - 响应字段断言，提取响应字段【records.size()】实际值【0】期望值【0】
+2026-08-16 12:28:01 INFO  BaseTest:45 - =================请求信息=================
+2026-08-16 12:28:01 INFO  BaseTest:46 - 请求方法:post
+2026-08-16 12:28:01 INFO  BaseTest:47 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:28:01 INFO  BaseTest:48 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:28:01 INFO  BaseTest:49 - 请求参数:{"principal":"lemon_auto","credentials":"lemon123456","appType":3,"loginType":0}
+2026-08-16 12:28:02 INFO  BaseTest:83 - =================响应信息=================
+2026-08-16 12:28:02 INFO  BaseTest:84 - 响应状态码:200
+2026-08-16 12:28:02 INFO  BaseTest:85 - 响应时间:631ms
+2026-08-16 12:28:02 INFO  BaseTest:86 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Set-Cookie=JSESSIONID=642FAC4E9E7560EE06817363B5F18055; Path=/; HttpOnly, Content-Type=application/json;charset=UTF-8, Content-Length=319, Date=Sun, 16 Aug 2026 04:28:02 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-08-16 12:28:02 INFO  BaseTest:87 - 响应体:{"access_token":"913c3f24-4122-472b-8f5a-857e20ea0181","token_type":"bearer","refresh_token":"a8c2eb42-0e6e-4994-bc25-6e9b28223b16","expires_in":1295999,"pic":"http://shop.lemonban.com:8108/2026/08/bcfc99c64a204585bc345f9d5b50d189.png","userId":"09285971140c45218e69d90636c04dbe","nickName":"lemon_auto","enabled":true}
+2026-08-16 12:28:02 INFO  BaseTest:195 - =================响应断言=================
+2026-08-16 12:28:02 INFO  BaseTest:202 - http响应状态码断言，实际值【200】期望值【200】
+2026-08-16 12:28:03 INFO  BaseTest:215 - 响应字段断言，提取响应字段【nickName】实际值【lemon_auto】期望值【lemon_auto】
+2026-08-16 12:28:03 INFO  BaseTest:215 - 响应字段断言，提取响应字段【token_type】实际值【bearer】期望值【bearer】
+2026-08-16 12:28:03 INFO  BaseTest:45 - =================请求信息=================
+2026-08-16 12:28:03 INFO  BaseTest:46 - 请求方法:Post
+2026-08-16 12:28:03 INFO  BaseTest:47 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:28:03 INFO  BaseTest:48 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:28:03 INFO  BaseTest:49 - 请求参数:{"principal":"lemon_auto","credentials":"lemon123","appType":3,"loginType":0}
+2026-08-16 12:28:03 INFO  BaseTest:83 - =================响应信息=================
+2026-08-16 12:28:03 INFO  BaseTest:84 - 响应状态码:400
+2026-08-16 12:28:03 INFO  BaseTest:85 - 响应时间:257ms
+2026-08-16 12:28:03 INFO  BaseTest:86 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:28:02 GMT, Connection=close]
+2026-08-16 12:28:03 INFO  BaseTest:87 - 响应体:Incorrect account or password
+2026-08-16 12:28:03 INFO  BaseTest:195 - =================响应断言=================
+2026-08-16 12:28:03 INFO  BaseTest:202 - http响应状态码断言，实际值【400】期望值【400】
+2026-08-16 12:28:03 INFO  BaseTest:208 - 响应体文本断言，实际值【Incorrect account or password】期望值【账号或密码不正确】
+2026-08-16 12:28:03 INFO  BaseTest:45 - =================请求信息=================
+2026-08-16 12:28:03 INFO  BaseTest:46 - 请求方法:POST
+2026-08-16 12:28:03 INFO  BaseTest:47 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:28:03 INFO  BaseTest:48 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:28:03 INFO  BaseTest:49 - 请求参数:{"principal":"","credentials":"lemon123","appType":3,"loginType":0}
+2026-08-16 12:28:03 INFO  BaseTest:83 - =================响应信息=================
+2026-08-16 12:28:03 INFO  BaseTest:84 - 响应状态码:400
+2026-08-16 12:28:03 INFO  BaseTest:85 - 响应时间:103ms
+2026-08-16 12:28:03 INFO  BaseTest:86 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:28:03 GMT, Connection=close]
+2026-08-16 12:28:03 INFO  BaseTest:87 - 响应体:Incorrect account or password
+2026-08-16 12:28:03 INFO  BaseTest:195 - =================响应断言=================
+2026-08-16 12:28:03 INFO  BaseTest:202 - http响应状态码断言，实际值【400】期望值【400】
+2026-08-16 12:28:03 INFO  BaseTest:208 - 响应体文本断言，实际值【Incorrect account or password】期望值【账号或密码不正确】
+2026-08-16 12:28:03 INFO  BaseTest:45 - =================请求信息=================
+2026-08-16 12:28:03 INFO  BaseTest:46 - 请求方法:POST
+2026-08-16 12:28:03 INFO  BaseTest:47 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:28:03 INFO  BaseTest:48 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:28:03 INFO  BaseTest:49 - 请求参数:{"principal":"lemonlemon666","credentials":"lemon123","appType":3,"loginType":0}
+2026-08-16 12:28:03 INFO  BaseTest:83 - =================响应信息=================
+2026-08-16 12:28:03 INFO  BaseTest:84 - 响应状态码:400
+2026-08-16 12:28:03 INFO  BaseTest:85 - 响应时间:104ms
+2026-08-16 12:28:03 INFO  BaseTest:86 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:28:03 GMT, Connection=close]
+2026-08-16 12:28:03 INFO  BaseTest:87 - 响应体:Incorrect account or password
+2026-08-16 12:28:03 INFO  BaseTest:195 - =================响应断言=================
+2026-08-16 12:28:03 INFO  BaseTest:202 - http响应状态码断言，实际值【400】期望值【400】
+2026-08-16 12:28:03 INFO  BaseTest:208 - 响应体文本断言，实际值【Incorrect account or password】期望值【账号或密码不正确】
+2026-08-16 12:28:03 INFO  BaseTest:45 - =================请求信息=================
+2026-08-16 12:28:03 INFO  BaseTest:46 - 请求方法:POST
+2026-08-16 12:28:03 INFO  BaseTest:47 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:28:03 INFO  BaseTest:48 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:28:03 INFO  BaseTest:49 - 请求参数:{"principal":"lemon_auto","credentials":"","appType":3,"loginType":0}
+2026-08-16 12:28:03 INFO  BaseTest:83 - =================响应信息=================
+2026-08-16 12:28:03 INFO  BaseTest:84 - 响应状态码:400
+2026-08-16 12:28:03 INFO  BaseTest:85 - 响应时间:206ms
+2026-08-16 12:28:03 INFO  BaseTest:86 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:28:03 GMT, Connection=close]
+2026-08-16 12:28:03 INFO  BaseTest:87 - 响应体:Incorrect account or password
+2026-08-16 12:28:03 INFO  BaseTest:195 - =================响应断言=================
+2026-08-16 12:28:03 INFO  BaseTest:202 - http响应状态码断言，实际值【400】期望值【400】
+2026-08-16 12:28:03 INFO  BaseTest:208 - 响应体文本断言，实际值【Incorrect account or password】期望值【账号或密码不正确】
+2026-08-16 12:28:03 INFO  BaseTest:45 - =================请求信息=================
+2026-08-16 12:28:03 INFO  BaseTest:46 - 请求方法:POST
+2026-08-16 12:28:03 INFO  BaseTest:47 - 请求地址:http://mall.lemonban.com:8107/login
+2026-08-16 12:28:03 INFO  BaseTest:48 - 请求头:{"Content-Type":"application/json; charset=UTF-8"}
+2026-08-16 12:28:03 INFO  BaseTest:49 - 请求参数:{"principal":"lemon_auto111111111111111","credentials":"lemon123456","appType":3,"loginType":0}
+2026-08-16 12:28:04 INFO  BaseTest:83 - =================响应信息=================
+2026-08-16 12:28:04 INFO  BaseTest:84 - 响应状态码:400
+2026-08-16 12:28:04 INFO  BaseTest:85 - 响应时间:90ms
+2026-08-16 12:28:04 INFO  BaseTest:86 - 响应头:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=29, Date=Sun, 16 Aug 2026 04:28:03 GMT, Connection=close]
+2026-08-16 12:28:04 INFO  BaseTest:87 - 响应体:Incorrect account or password
+2026-08-16 12:28:04 INFO  BaseTest:195 - =================响应断言=================
+2026-08-16 12:28:04 INFO  BaseTest:202 - http响应状态码断言，实际值【400】期望值【400】
+2026-08-16 12:28:04 INFO  BaseTest:208 - 响应体文本断言，实际值【Incorrect account or password】期望值【账号或密码不正确】

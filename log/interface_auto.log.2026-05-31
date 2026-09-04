@@ -1,0 +1,474 @@
+2026-05-31 06:59:35 INFO  BaseTest:26 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 06:59:35 INFO  BaseTest:27 - è¯·æ±‚æ–¹æ³•:post
+2026-05-31 06:59:35 INFO  BaseTest:28 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/login
+2026-05-31 06:59:35 INFO  BaseTest:29 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 06:59:35 INFO  BaseTest:30 - è¯·æ±‚å‚æ•°:{"principal":"lemon_auto","credentials":"lemon123456","appType":3,"loginType":0}
+2026-05-31 06:59:37 INFO  BaseTest:55 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 06:59:37 INFO  BaseTest:56 - å“åº”çŠ¶æ€ç :200
+2026-05-31 06:59:37 INFO  BaseTest:57 - å“åº”æ—¶é—´:799ms
+2026-05-31 06:59:37 INFO  BaseTest:58 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Set-Cookie=JSESSIONID=1DD86707D852D784A51BE23CB6587DBC; Path=/; HttpOnly, Content-Type=application/json;charset=UTF-8, Content-Length=319, Date=Sat, 30 May 2026 22:59:37 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 06:59:37 INFO  BaseTest:59 - å“åº”ä½“:{"access_token":"e231f786-a786-426b-9815-cfced6f3d67d","token_type":"bearer","refresh_token":"fd5c3a4d-73a5-4619-9451-e0ee3b63f735","expires_in":1295999,"pic":"http://shop.lemonban.com:8108/2026/05/3a7bbe14711d4ca7a78e79336a2bb480.png","userId":"02419b7f18ef43af87eb28366d84479e","nickName":"lemon_auto","enabled":true}
+2026-05-31 06:59:37 INFO  BaseTest:26 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 06:59:37 INFO  BaseTest:27 - è¯·æ±‚æ–¹æ³•:Post
+2026-05-31 06:59:37 INFO  BaseTest:28 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/login
+2026-05-31 06:59:37 INFO  BaseTest:29 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 06:59:37 INFO  BaseTest:30 - è¯·æ±‚å‚æ•°:{"principal":"lemon_auto","credentials":"lemon123","appType":3,"loginType":0}
+2026-05-31 06:59:37 INFO  BaseTest:55 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 06:59:37 INFO  BaseTest:56 - å“åº”çŠ¶æ€ç :400
+2026-05-31 06:59:37 INFO  BaseTest:57 - å“åº”æ—¶é—´:227ms
+2026-05-31 06:59:37 INFO  BaseTest:58 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sat, 30 May 2026 22:59:37 GMT, Connection=close]
+2026-05-31 06:59:37 INFO  BaseTest:59 - å“åº”ä½“:è´¦å·æˆ–å¯†ç ä¸æ­£ç¡®
+2026-05-31 06:59:37 INFO  BaseTest:26 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 06:59:37 INFO  BaseTest:27 - è¯·æ±‚æ–¹æ³•:POST
+2026-05-31 06:59:37 INFO  BaseTest:28 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/login
+2026-05-31 06:59:37 INFO  BaseTest:29 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 06:59:37 INFO  BaseTest:30 - è¯·æ±‚å‚æ•°:{"principal":"","credentials":"lemon123","appType":3,"loginType":0}
+2026-05-31 06:59:37 INFO  BaseTest:55 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 06:59:37 INFO  BaseTest:56 - å“åº”çŠ¶æ€ç :400
+2026-05-31 06:59:37 INFO  BaseTest:57 - å“åº”æ—¶é—´:105ms
+2026-05-31 06:59:37 INFO  BaseTest:58 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sat, 30 May 2026 22:59:37 GMT, Connection=close]
+2026-05-31 06:59:37 INFO  BaseTest:59 - å“åº”ä½“:è´¦å·æˆ–å¯†ç ä¸æ­£ç¡®
+2026-05-31 06:59:37 INFO  BaseTest:26 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 06:59:37 INFO  BaseTest:27 - è¯·æ±‚æ–¹æ³•:POST
+2026-05-31 06:59:37 INFO  BaseTest:28 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/login
+2026-05-31 06:59:37 INFO  BaseTest:29 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 06:59:37 INFO  BaseTest:30 - è¯·æ±‚å‚æ•°:{"principal":"lemonlemon666","credentials":"lemon123","appType":3,"loginType":0}
+2026-05-31 06:59:38 INFO  BaseTest:55 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 06:59:38 INFO  BaseTest:56 - å“åº”çŠ¶æ€ç :400
+2026-05-31 06:59:38 INFO  BaseTest:57 - å“åº”æ—¶é—´:110ms
+2026-05-31 06:59:38 INFO  BaseTest:58 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sat, 30 May 2026 22:59:37 GMT, Connection=close]
+2026-05-31 06:59:38 INFO  BaseTest:59 - å“åº”ä½“:è´¦å·æˆ–å¯†ç ä¸æ­£ç¡®
+2026-05-31 06:59:38 INFO  BaseTest:26 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 06:59:38 INFO  BaseTest:27 - è¯·æ±‚æ–¹æ³•:POST
+2026-05-31 06:59:38 INFO  BaseTest:28 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/login
+2026-05-31 06:59:38 INFO  BaseTest:29 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 06:59:38 INFO  BaseTest:30 - è¯·æ±‚å‚æ•°:{"principal":"lemon_auto","credentials":"","appType":3,"loginType":0}
+2026-05-31 06:59:38 INFO  BaseTest:55 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 06:59:38 INFO  BaseTest:56 - å“åº”çŠ¶æ€ç :400
+2026-05-31 06:59:38 INFO  BaseTest:57 - å“åº”æ—¶é—´:193ms
+2026-05-31 06:59:38 INFO  BaseTest:58 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sat, 30 May 2026 22:59:37 GMT, Connection=close]
+2026-05-31 06:59:38 INFO  BaseTest:59 - å“åº”ä½“:è´¦å·æˆ–å¯†ç ä¸æ­£ç¡®
+2026-05-31 06:59:38 INFO  BaseTest:26 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 06:59:38 INFO  BaseTest:27 - è¯·æ±‚æ–¹æ³•:POST
+2026-05-31 06:59:38 INFO  BaseTest:28 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/login
+2026-05-31 06:59:38 INFO  BaseTest:29 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 06:59:38 INFO  BaseTest:30 - è¯·æ±‚å‚æ•°:{"principal":"lemon_auto111111111111111","credentials":"lemon123456","appType":3,"loginType":0}
+2026-05-31 06:59:38 INFO  BaseTest:55 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 06:59:38 INFO  BaseTest:56 - å“åº”çŠ¶æ€ç :400
+2026-05-31 06:59:38 INFO  BaseTest:57 - å“åº”æ—¶é—´:104ms
+2026-05-31 06:59:38 INFO  BaseTest:58 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sat, 30 May 2026 22:59:37 GMT, Connection=close]
+2026-05-31 06:59:38 INFO  BaseTest:59 - å“åº”ä½“:è´¦å·æˆ–å¯†ç ä¸æ­£ç¡®
+2026-05-31 06:59:53 INFO  BaseTest:26 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 06:59:53 INFO  BaseTest:27 - è¯·æ±‚æ–¹æ³•:get
+2026-05-31 06:59:53 INFO  BaseTest:28 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/search/searchProdPage
+2026-05-31 06:59:53 INFO  BaseTest:29 - è¯·æ±‚å¤´:null
+2026-05-31 06:59:53 INFO  BaseTest:30 - è¯·æ±‚å‚æ•°:?prodName=duck
+2026-05-31 06:59:54 INFO  BaseTest:55 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 06:59:54 INFO  BaseTest:56 - å“åº”çŠ¶æ€ç :200
+2026-05-31 06:59:54 INFO  BaseTest:57 - å“åº”æ—¶é—´:577ms
+2026-05-31 06:59:54 INFO  BaseTest:58 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sat, 30 May 2026 22:59:54 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 06:59:54 INFO  BaseTest:59 - å“åº”ä½“:{"records":[],"total":0,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"hitCount":false,"countId":null,"maxLimit":null,"searchCount":true,"pages":0}
+2026-05-31 06:59:54 INFO  BaseTest:26 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 06:59:54 INFO  BaseTest:27 - è¯·æ±‚æ–¹æ³•:get
+2026-05-31 06:59:54 INFO  BaseTest:28 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/search/searchProdPage
+2026-05-31 06:59:54 INFO  BaseTest:29 - è¯·æ±‚å¤´:null
+2026-05-31 06:59:54 INFO  BaseTest:30 - è¯·æ±‚å‚æ•°:?prodName=XXXXX
+2026-05-31 06:59:54 INFO  BaseTest:55 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 06:59:54 INFO  BaseTest:56 - å“åº”çŠ¶æ€ç :200
+2026-05-31 06:59:54 INFO  BaseTest:57 - å“åº”æ—¶é—´:93ms
+2026-05-31 06:59:54 INFO  BaseTest:58 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sat, 30 May 2026 22:59:54 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 06:59:54 INFO  BaseTest:59 - å“åº”ä½“:{"records":[],"total":0,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"hitCount":false,"countId":null,"maxLimit":null,"searchCount":true,"pages":0}
+2026-05-31 07:01:33 INFO  BaseTest:35 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:01:33 INFO  BaseTest:36 - è¯·æ±‚æ–¹æ³•:post
+2026-05-31 07:01:33 INFO  BaseTest:37 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/login
+2026-05-31 07:01:33 INFO  BaseTest:38 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 07:01:33 INFO  BaseTest:39 - è¯·æ±‚å‚æ•°:{"principal":"lemon_auto","credentials":"lemon123456","appType":3,"loginType":0}
+2026-05-31 07:01:35 INFO  BaseTest:66 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:01:35 INFO  BaseTest:67 - å“åº”çŠ¶æ€ç :200
+2026-05-31 07:01:35 INFO  BaseTest:68 - å“åº”æ—¶é—´:683ms
+2026-05-31 07:01:35 INFO  BaseTest:69 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Set-Cookie=JSESSIONID=A2AE3DF44FD59C2468CD8BFAC3523E4A; Path=/; HttpOnly, Content-Type=application/json;charset=UTF-8, Content-Length=319, Date=Sat, 30 May 2026 23:01:35 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 07:01:35 INFO  BaseTest:70 - å“åº”ä½“:{"access_token":"26c0f1cb-a81d-411b-97bb-56d4012f2eb1","token_type":"bearer","refresh_token":"109eec67-a4e7-4e60-9eea-b7de1fcc27ec","expires_in":1295999,"pic":"http://shop.lemonban.com:8108/2026/05/3a7bbe14711d4ca7a78e79336a2bb480.png","userId":"02419b7f18ef43af87eb28366d84479e","nickName":"lemon_auto","enabled":true}
+2026-05-31 07:01:35 INFO  BaseTest:125 - =================æ–­è¨€ä¿¡æ¯=================
+2026-05-31 07:01:35 INFO  BaseTest:132 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€200ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:01:35 INFO  BaseTest:145 - å“åº”å­—æ®µæ–­è¨€ï¼Œæå–å“åº”å­—æ®µã€nickNameã€‘å®é™…å€¼ã€lemon_autoã€‘æœŸæœ›å€¼ã€lemon_autoã€‘
+2026-05-31 07:01:35 INFO  BaseTest:145 - å“åº”å­—æ®µæ–­è¨€ï¼Œæå–å“åº”å­—æ®µã€token_typeã€‘å®é™…å€¼ã€bearerã€‘æœŸæœ›å€¼ã€bearerã€‘
+2026-05-31 07:01:35 INFO  BaseTest:112 - =================æå–å“åº”=================
+2026-05-31 07:01:35 INFO  BaseTest:113 - å˜é‡å:tokenï¼Œå˜é‡å€¼:26c0f1cb-a81d-411b-97bb-56d4012f2eb1
+2026-05-31 07:01:35 INFO  BaseTest:35 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:01:35 INFO  BaseTest:36 - è¯·æ±‚æ–¹æ³•:get
+2026-05-31 07:01:35 INFO  BaseTest:37 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/search/searchProdPage
+2026-05-31 07:01:35 INFO  BaseTest:38 - è¯·æ±‚å¤´:null
+2026-05-31 07:01:35 INFO  BaseTest:39 - è¯·æ±‚å‚æ•°:?prodName=duck
+2026-05-31 07:01:35 INFO  BaseTest:66 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:01:35 INFO  BaseTest:67 - å“åº”çŠ¶æ€ç :200
+2026-05-31 07:01:35 INFO  BaseTest:68 - å“åº”æ—¶é—´:110ms
+2026-05-31 07:01:35 INFO  BaseTest:69 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sat, 30 May 2026 23:01:35 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 07:01:35 INFO  BaseTest:70 - å“åº”ä½“:{"records":[],"total":0,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"hitCount":false,"countId":null,"maxLimit":null,"searchCount":true,"pages":0}
+2026-05-31 07:01:35 INFO  BaseTest:125 - =================æ–­è¨€ä¿¡æ¯=================
+2026-05-31 07:01:35 INFO  BaseTest:132 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€200ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:01:36 INFO  BaseTest:35 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:36 - è¯·æ±‚æ–¹æ³•:get
+2026-05-31 07:01:36 INFO  BaseTest:37 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/prod/prodInfo
+2026-05-31 07:01:36 INFO  BaseTest:38 - è¯·æ±‚å¤´:null
+2026-05-31 07:01:36 INFO  BaseTest:39 - è¯·æ±‚å‚æ•°:?prodId=null
+2026-05-31 07:01:36 INFO  BaseTest:66 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:67 - å“åº”çŠ¶æ€ç :400
+2026-05-31 07:01:36 INFO  BaseTest:68 - å“åº”æ—¶é—´:108ms
+2026-05-31 07:01:36 INFO  BaseTest:69 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sat, 30 May 2026 23:01:36 GMT, Connection=close]
+2026-05-31 07:01:36 INFO  BaseTest:70 - å“åº”ä½“:{"timestamp":"2026-05-31 07:01:36","status":400,"error":"Bad Request","message":"","path":"/prod/prodInfo"}
+2026-05-31 07:01:36 INFO  BaseTest:125 - =================æ–­è¨€ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:132 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€400ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:01:36 INFO  BaseTest:35 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:36 - è¯·æ±‚æ–¹æ³•:post
+2026-05-31 07:01:36 INFO  BaseTest:37 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/p/shopCart/changeItem
+2026-05-31 07:01:36 INFO  BaseTest:38 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8","Authorization":"bearer 26c0f1cb-a81d-411b-97bb-56d4012f2eb1"}
+2026-05-31 07:01:36 INFO  BaseTest:39 - è¯·æ±‚å‚æ•°:{"basketId":0,"count":1,"prodId":"null","shopId":1,"skuId":null}
+2026-05-31 07:01:36 INFO  BaseTest:66 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:67 - å“åº”çŠ¶æ€ç :400
+2026-05-31 07:01:36 INFO  BaseTest:68 - å“åº”æ—¶é—´:97ms
+2026-05-31 07:01:36 INFO  BaseTest:69 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, Set-Cookie=JSESSIONID=BEC6D63CAC94EFD350239CD1053BC7CC; Path=/; HttpOnly, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=text/plain;charset=UTF-8, Content-Length=17, Date=Sat, 30 May 2026 23:01:36 GMT, Connection=close]
+2026-05-31 07:01:36 INFO  BaseTest:70 - å“åº”ä½“:skuIdä¸èƒ½ä¸ºç©º
+2026-05-31 07:01:36 INFO  BaseTest:125 - =================æ–­è¨€ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:132 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€400ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:01:36 INFO  BaseTest:35 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:36 - è¯·æ±‚æ–¹æ³•:post
+2026-05-31 07:01:36 INFO  BaseTest:37 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/p/shopCart/info
+2026-05-31 07:01:36 INFO  BaseTest:38 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8","Authorization":"bearer 26c0f1cb-a81d-411b-97bb-56d4012f2eb1"}
+2026-05-31 07:01:36 INFO  BaseTest:39 - è¯·æ±‚å‚æ•°:[]
+2026-05-31 07:01:36 INFO  BaseTest:66 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:67 - å“åº”çŠ¶æ€ç :200
+2026-05-31 07:01:36 INFO  BaseTest:68 - å“åº”æ—¶é—´:112ms
+2026-05-31 07:01:36 INFO  BaseTest:69 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, Set-Cookie=JSESSIONID=1E408081C8273F86ECF034AA9AAE3647; Path=/; HttpOnly, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sat, 30 May 2026 23:01:36 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 07:01:36 INFO  BaseTest:70 - å“åº”ä½“:[{"shopId":1,"shopName":"ç¢§æµ·è“å¤©","shopCityStatus":1,"shopCartItemDiscounts":[{"totalAmount":null,"chooseDiscountItemDto":{"discountId":369,"discountRule":2,"needAmount":100.0,"discountType":0,"prodCount":6,"prodsPrice":533.28,"discount":5.0,"reduceAmount":266.64},"shopCartItems":[{"prodName":"çš®å¡ä¸˜è”ååŒ…åŒ… é‡‘è‰² ","prodNameCn":"çš®å¡ä¸˜è”ååŒ…åŒ… é‡‘è‰² ","prodNameEn":"çš®å¡ä¸˜è”ååŒ…åŒ… golden ","prodCount":6,"pic":"http://shop.lemonban.com:8108/2026/03/f381cc9e2e78462a9335134582951af2.jpg","price":88.88,"categoryId":null,"productTotalAmount":533.28,"prodId":6415,"skuId":13912,"skuName":"é‡‘è‰² ","useScore":null,"scorePrice":0,"basketId":69128,"actualTotal":null,"discountId":369,"shareReduce":0.0,"isShareReduce":null,"scorePayReduce":null,"discounts":[{"discountId":369,"shopId":null,"mobilePic":null,"pcPic":null,"pcBackgroundPic":null,"discountName":"æ»¡100æ‰“5æŠ˜","discountRule":null,"discountType":null,"suitableProdType":null,"maxReduceAmount":null,"startTime":null,"endTime":null,"discountItems":null},{"discountId":370,"shopId":null,"mobilePic":null,"pcPic":null,"pcBackgroundPic":null,"discountName":"æ»¡10ä»¶æ‰“5æŠ˜","discountRule":null,"discountType":null,"suitableProdType":null,"maxReduceAmount":null,"startTime":null,"endTime":null,"discountItems":null}],"deliveryMode":"{\"hasUserPickUp\": false, \"hasCityDelivery\": false, \"hasShopDelivery\": true}","deliveryModeVO":{"hasUserPickUp":false,"hasShopDelivery":true,"hasCityDelivery":false},"isCheck":false,"shopId":1,"shopName":"ç¢§æµ·è“å¤©","oriPrice":99.99,"distributionCardNo":null,"basketDate":"2026-05-28 22:52:29","preSellStatus":null,"preSellTime":null,"shopCityStatus":1}]}]}]
+2026-05-31 07:01:36 INFO  BaseTest:125 - =================æ–­è¨€ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:132 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€200ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:01:36 INFO  BaseTest:112 - =================æå–å“åº”=================
+2026-05-31 07:01:36 INFO  BaseTest:113 - å˜é‡å:basketIdï¼Œå˜é‡å€¼:69128
+2026-05-31 07:01:36 INFO  BaseTest:35 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:36 - è¯·æ±‚æ–¹æ³•:post
+2026-05-31 07:01:36 INFO  BaseTest:37 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/p/order/confirm
+2026-05-31 07:01:36 INFO  BaseTest:38 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8","Authorization":"bearer 26c0f1cb-a81d-411b-97bb-56d4012f2eb1"}
+2026-05-31 07:01:36 INFO  BaseTest:39 - è¯·æ±‚å‚æ•°:{"addrId":0,"basketIds":[69128],"couponIds":[],"isScorePay":0,"userChangeCoupon":0,"userUseScore":0,"uuid":"054d714b-bf02-465d-85d0-29519470de17"}
+2026-05-31 07:01:36 INFO  BaseTest:66 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:67 - å“åº”çŠ¶æ€ç :200
+2026-05-31 07:01:36 INFO  BaseTest:68 - å“åº”æ—¶é—´:134ms
+2026-05-31 07:01:36 INFO  BaseTest:69 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, Set-Cookie=JSESSIONID=B2A107D26E5F95B855709A7BE20FB626; Path=/; HttpOnly, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sat, 30 May 2026 23:01:36 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 07:01:36 INFO  BaseTest:70 - å“åº”ä½“:{"actualTotal":266.64,"total":533.28,"totalCount":6,"orderReduce":266.64,"scorePrice":null,"maxUsableScore":26664,"totalUsableScore":0,"totalScoreAmount":0.0,"totalLevelAmount":0.0,"freeTransfee":0.0,"totalTransfee":0.0,"userAddr":{"addrId":4993,"receiver":"å”çç","province":"æ¹–å—çœ","city":"é•¿æ²™å¸‚","area":"å²³éº“åŒº","addr":"é•¿å‘è·¯33å·","mobile":"18607361841","lng":0.0,"lat":0.0,"commonAddr":1,"provinceId":43,"cityId":4301,"areaId":430104},"shopCartOrders":[{"shopId":1,"shopName":"ç¢§æµ·è“å¤©","actualTotal":266.64,"total":533.28,"totalCount":6,"transfee":0.0,"discountReduce":266.64,"couponReduce":null,"shopReduce":266.64,"remarks":null,"scoreReduce":0.0,"useScore":null,"levelReduce":0.0,"freeTransfee":0.0,"shopCartItemDiscounts":[{"totalAmount":266.64,"chooseDiscountItemDto":{"discountId":369,"discountRule":2,"needAmount":100.0,"discountType":0,"prodCount":6,"prodsPrice":533.28,"discount":5.0,"reduceAmount":266.64},"shopCartItems":[{"prodName":"çš®å¡ä¸˜è”ååŒ…åŒ… é‡‘è‰² ","prodNameCn":"çš®å¡ä¸˜è”ååŒ…åŒ… é‡‘è‰² ","prodNameEn":"çš®å¡ä¸˜è”ååŒ…åŒ… golden ","prodCount":6,"pic":"http://shop.lemonban.com:8108/2026/03/f381cc9e2e78462a9335134582951af2.jpg","price":88.88,"categoryId":null,"productTotalAmount":533.28,"prodId":6415,"skuId":13912,"skuName":"é‡‘è‰² ","useScore":null,"scorePrice":0,"basketId":69128,"actualTotal":266.64,"discountId":369,"shareReduce":266.64,"isShareReduce":null,"scorePayReduce":null,"discounts":[{"discountId":369,"shopId":null,"mobilePic":null,"pcPic":null,"pcBackgroundPic":null,"discountName":"æ»¡100æ‰“5æŠ˜","discountRule":null,"discountType":null,"suitableProdType":null,"maxReduceAmount":null,"startTime":null,"endTime":null,"discountItems":null},{"discountId":370,"shopId":null,"mobilePic":null,"pcPic":null,"pcBackgroundPic":null,"discountName":"æ»¡10ä»¶æ‰“5æŠ˜","discountRule":null,"discountType":null,"suitableProdType":null,"maxReduceAmount":null,"startTime":null,"endTime":null,"discountItems":null}],"deliveryMode":"{\"hasUserPickUp\": false, \"hasCityDelivery\": false, \"hasShopDelivery\": true}","deliveryModeVO":{"hasUserPickUp":false,"hasShopDelivery":true,"hasCityDelivery":false},"isCheck":null,"shopId":1,"shopName":"ç¢§æµ·è“å¤©","oriPrice":99.99,"distributionCardNo":null,"basketDate":"2026-05-28 22:52:29","preSellStatus":null,"preSellTime":null,"shopCityStatus":1}]}],"coupons":[],"shopCityStatus":1,"orderNumber":null}],"coupons":null,"isScorePay":0,"shopUseScore":100.0,"filterShopItems":[],"orderSelfStationDto":null,"orderSelfStationDtos":null,"dvyType":1,"stationId":null,"shopCityStatus":1}
+2026-05-31 07:01:36 INFO  BaseTest:125 - =================æ–­è¨€ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:132 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€200ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:01:36 INFO  BaseTest:35 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:36 - è¯·æ±‚æ–¹æ³•:post
+2026-05-31 07:01:36 INFO  BaseTest:37 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/p/order/submit
+2026-05-31 07:01:36 INFO  BaseTest:38 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8","Authorization":"bearer 26c0f1cb-a81d-411b-97bb-56d4012f2eb1"}
+2026-05-31 07:01:36 INFO  BaseTest:39 - è¯·æ±‚å‚æ•°:{"orderShopParam":[{"remarks":"","shopId":1}],"uuid":"5df403a8-214b-4cac-a8a3-6d102b421389"}
+2026-05-31 07:01:36 INFO  BaseTest:66 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:67 - å“åº”çŠ¶æ€ç :200
+2026-05-31 07:01:36 INFO  BaseTest:68 - å“åº”æ—¶é—´:269ms
+2026-05-31 07:01:36 INFO  BaseTest:69 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, Set-Cookie=JSESSIONID=3D43316EE9D5C06A813E6CCC96CB2DB5; Path=/; HttpOnly, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sat, 30 May 2026 23:01:36 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 07:01:36 INFO  BaseTest:70 - å“åº”ä½“:{"orderNumbers":"2060859200074158080","duplicateError":null}
+2026-05-31 07:01:36 INFO  BaseTest:125 - =================æ–­è¨€ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:132 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€200ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:01:36 INFO  BaseTest:112 - =================æå–å“åº”=================
+2026-05-31 07:01:36 INFO  BaseTest:113 - å˜é‡å:orderNumbersï¼Œå˜é‡å€¼:2060859200074158080
+2026-05-31 07:01:36 INFO  BaseTest:35 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:01:36 INFO  BaseTest:36 - è¯·æ±‚æ–¹æ³•:post
+2026-05-31 07:01:36 INFO  BaseTest:37 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/p/order/pay
+2026-05-31 07:01:36 INFO  BaseTest:38 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8","Authorization":"bearer 26c0f1cb-a81d-411b-97bb-56d4012f2eb1"}
+2026-05-31 07:01:36 INFO  BaseTest:39 - è¯·æ±‚å‚æ•°:{"payType":3,"orderNumbers":"2060859200074158080"}
+2026-05-31 07:01:37 INFO  BaseTest:66 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:01:37 INFO  BaseTest:67 - å“åº”çŠ¶æ€ç :200
+2026-05-31 07:01:37 INFO  BaseTest:68 - å“åº”æ—¶é—´:587ms
+2026-05-31 07:01:37 INFO  BaseTest:69 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, Set-Cookie=JSESSIONID=BBD1F155D88A15C2958600C024D9B698; Path=/; HttpOnly, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=text/plain;charset=UTF-8, Content-Length=37, Date=Sat, 30 May 2026 23:01:37 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 07:01:37 INFO  BaseTest:70 - å“åº”ä½“:weixin://wxpay/bizpayurl?pr=Mk37Bpxz1
+2026-05-31 07:01:37 INFO  BaseTest:125 - =================æ–­è¨€ä¿¡æ¯=================
+2026-05-31 07:01:37 INFO  BaseTest:132 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€200ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:01:37 INFO  BaseTest:35 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:01:37 INFO  BaseTest:36 - è¯·æ±‚æ–¹æ³•:post
+2026-05-31 07:01:37 INFO  BaseTest:37 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/notice/pay/3
+2026-05-31 07:01:37 INFO  BaseTest:38 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8","Authorization":"bearer 26c0f1cb-a81d-411b-97bb-56d4012f2eb1"}
+2026-05-31 07:01:37 INFO  BaseTest:39 - è¯·æ±‚å‚æ•°:{"payNo":"2060859200074158080","bizPayNo":"XXXX","isPaySuccess":true}
+2026-05-31 07:01:37 INFO  BaseTest:66 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:01:37 INFO  BaseTest:67 - å“åº”çŠ¶æ€ç :200
+2026-05-31 07:01:37 INFO  BaseTest:68 - å“åº”æ—¶é—´:437ms
+2026-05-31 07:01:37 INFO  BaseTest:69 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, Set-Cookie=JSESSIONID=0C2F2682F185FB5878AF98E848CD90EB; Path=/; HttpOnly, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=text/plain;charset=UTF-8, Content-Length=7, Date=Sat, 30 May 2026 23:01:37 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 07:01:37 INFO  BaseTest:70 - å“åº”ä½“:success
+2026-05-31 07:01:37 INFO  BaseTest:125 - =================æ–­è¨€ä¿¡æ¯=================
+2026-05-31 07:01:37 INFO  BaseTest:132 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€200ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:01:37 INFO  BaseTest:35 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:01:37 INFO  BaseTest:36 - è¯·æ±‚æ–¹æ³•:get
+2026-05-31 07:01:37 INFO  BaseTest:37 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/p/order/isPay/${orderNumbers}
+2026-05-31 07:01:37 INFO  BaseTest:38 - è¯·æ±‚å¤´:{"Authorization":"bearer 26c0f1cb-a81d-411b-97bb-56d4012f2eb1"}
+2026-05-31 07:01:37 INFO  BaseTest:39 - è¯·æ±‚å‚æ•°:null
+2026-05-31 07:02:19 INFO  BaseTest:45 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:02:19 INFO  BaseTest:46 - è¯·æ±‚æ–¹æ³•:post
+2026-05-31 07:02:19 INFO  BaseTest:47 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/login
+2026-05-31 07:02:19 INFO  BaseTest:48 - è¯·æ±‚å¤´:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 07:02:19 INFO  BaseTest:49 - è¯·æ±‚å‚æ•°:{"principal":"lemon_auto","credentials":"lemon123456","appType":3,"loginType":0}
+2026-05-31 07:02:20 INFO  BaseTest:83 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:02:20 INFO  BaseTest:84 - å“åº”çŠ¶æ€ç :200
+2026-05-31 07:02:20 INFO  BaseTest:85 - å“åº”æ—¶é—´:702ms
+2026-05-31 07:02:20 INFO  BaseTest:86 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Set-Cookie=JSESSIONID=504CFBEE3485017EEE637FCADBB8179E; Path=/; HttpOnly, Content-Type=application/json;charset=UTF-8, Content-Length=319, Date=Sat, 30 May 2026 23:02:20 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 07:02:20 INFO  BaseTest:87 - å“åº”ä½“:{"access_token":"02e9c1aa-2504-405b-a4af-3249492c9cff","token_type":"bearer","refresh_token":"b65050ee-c101-4dc7-b464-21be2e05882e","expires_in":1295999,"pic":"http://shop.lemonban.com:8108/2026/05/3a7bbe14711d4ca7a78e79336a2bb480.png","userId":"02419b7f18ef43af87eb28366d84479e","nickName":"lemon_auto","enabled":true}
+2026-05-31 07:02:20 INFO  BaseTest:195 - =================å“åº”æ–­è¨€=================
+2026-05-31 07:02:20 INFO  BaseTest:202 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€200ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:02:21 INFO  BaseTest:215 - å“åº”å­—æ®µæ–­è¨€ï¼Œæå–å“åº”å­—æ®µã€nickNameã€‘å®é™…å€¼ã€lemon_autoã€‘æœŸæœ›å€¼ã€lemon_autoã€‘
+2026-05-31 07:02:21 INFO  BaseTest:215 - å“åº”å­—æ®µæ–­è¨€ï¼Œæå–å“åº”å­—æ®µã€token_typeã€‘å®é™…å€¼ã€bearerã€‘æœŸæœ›å€¼ã€bearerã€‘
+2026-05-31 07:02:21 INFO  BaseTest:169 - =================æå–å“åº”=================
+2026-05-31 07:02:21 INFO  BaseTest:183 - å˜é‡å:tokenï¼Œå˜é‡å€¼:02e9c1aa-2504-405b-a4af-3249492c9cff
+2026-05-31 07:02:21 INFO  BaseTest:45 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:02:21 INFO  BaseTest:46 - è¯·æ±‚æ–¹æ³•:get
+2026-05-31 07:02:21 INFO  BaseTest:47 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/p/user/centerInfo
+2026-05-31 07:02:21 INFO  BaseTest:48 - è¯·æ±‚å¤´:{"Authorization": "bearer 02e9c1aa-2504-405b-a4af-3249492c9cff"
+}
+2026-05-31 07:02:21 INFO  BaseTest:49 - è¯·æ±‚å‚æ•°:null
+2026-05-31 07:02:21 INFO  BaseTest:83 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:02:21 INFO  BaseTest:84 - å“åº”çŠ¶æ€ç :200
+2026-05-31 07:02:21 INFO  BaseTest:85 - å“åº”æ—¶é—´:118ms
+2026-05-31 07:02:21 INFO  BaseTest:86 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, Set-Cookie=JSESSIONID=DC3EA614D8F30C6E2D8B8015A2977B19; Path=/; HttpOnly, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sat, 30 May 2026 23:02:20 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 07:02:21 INFO  BaseTest:87 - å“åº”ä½“:{"orderCountData":{"allCount":1895,"unPay":1005,"payed":874,"consignment":0,"confirm":0,"success":0,"close":16},"shopAuditStatus":null,"isSetPassword":null,"shopId":null}
+2026-05-31 07:02:21 INFO  BaseTest:195 - =================å“åº”æ–­è¨€=================
+2026-05-31 07:02:21 INFO  BaseTest:202 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€200ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:02:21 INFO  BaseTest:45 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:02:21 INFO  BaseTest:46 - è¯·æ±‚æ–¹æ³•:post
+2026-05-31 07:02:21 INFO  BaseTest:47 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/p/file/upload
+2026-05-31 07:02:21 INFO  BaseTest:48 - è¯·æ±‚å¤´:{"Authorization": "bearer 02e9c1aa-2504-405b-a4af-3249492c9cff","Content-Type":"multipart/form-data"
+}
+2026-05-31 07:02:21 INFO  BaseTest:49 - è¯·æ±‚å‚æ•°:src/test/resources/touxiang.png
+2026-05-31 07:02:21 INFO  BaseTest:83 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:02:21 INFO  BaseTest:84 - å“åº”çŠ¶æ€ç :200
+2026-05-31 07:02:21 INFO  BaseTest:85 - å“åº”æ—¶é—´:272ms
+2026-05-31 07:02:21 INFO  BaseTest:86 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, Set-Cookie=JSESSIONID=D86F68889E2117DCCF333F6A285CA03E; Path=/; HttpOnly, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sat, 30 May 2026 23:02:21 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 07:02:21 INFO  BaseTest:87 - å“åº”ä½“:{"resourcesUrl":"http://shop.lemonban.com:8108/","filePath":"2026/05/a2719040f1734dfb8cb35a3c41185d6a.png"}
+2026-05-31 07:02:21 INFO  BaseTest:195 - =================å“åº”æ–­è¨€=================
+2026-05-31 07:02:21 INFO  BaseTest:202 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€200ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:02:21 INFO  BaseTest:169 - =================æå–å“åº”=================
+2026-05-31 07:02:21 INFO  BaseTest:183 - å˜é‡å:filePathï¼Œå˜é‡å€¼:2026/05/a2719040f1734dfb8cb35a3c41185d6a.png
+2026-05-31 07:02:21 INFO  BaseTest:183 - å˜é‡å:resourcesUrlï¼Œå˜é‡å€¼:http://shop.lemonban.com:8108/
+2026-05-31 07:02:21 INFO  BaseTest:45 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:02:21 INFO  BaseTest:46 - è¯·æ±‚æ–¹æ³•:put
+2026-05-31 07:02:21 INFO  BaseTest:47 - è¯·æ±‚åœ°å€:http://mall.lemonban.com:8107/p/user/setUserInfo
+2026-05-31 07:02:21 INFO  BaseTest:48 - è¯·æ±‚å¤´:{"Authorization": "bearer 02e9c1aa-2504-405b-a4af-3249492c9cff","Content-Type":"application/json; charset=UTF-8"
+}
+2026-05-31 07:02:21 INFO  BaseTest:49 - è¯·æ±‚å‚æ•°:{"avatarUrl":"http://shop.lemonban.com:8108/2026/05/a2719040f1734dfb8cb35a3c41185d6a.png","nickName":"lemon_auto","userMobile":"13323234501","auth":{}}
+2026-05-31 07:02:21 INFO  BaseTest:83 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:02:21 INFO  BaseTest:84 - å“åº”çŠ¶æ€ç :200
+2026-05-31 07:02:21 INFO  BaseTest:85 - å“åº”æ—¶é—´:128ms
+2026-05-31 07:02:21 INFO  BaseTest:86 - å“åº”å¤´:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, Set-Cookie=JSESSIONID=BE2DBABFE82056203DC1BBFC066C025A; Path=/; HttpOnly, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Length=0, Date=Sat, 30 May 2026 23:02:21 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 07:02:21 INFO  BaseTest:87 - å“åº”ä½“:
+2026-05-31 07:02:21 INFO  BaseTest:195 - =================å“åº”æ–­è¨€=================
+2026-05-31 07:02:21 INFO  BaseTest:202 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€200ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:02:32 INFO  BaseTest:45 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:02:32 INFO  BaseTest:46 - è¯·æ±‚æ–¹æ³•:post
+2026-05-31 07:02:32 INFO  BaseTest:47 - è¯·æ±‚åœ°å€:http://api.lemonban.com:8788/futureloan/member/login
+2026-05-31 07:02:32 INFO  BaseTest:48 - è¯·æ±‚å¤´:{"X-Lemonban-Media-Type":"lemonban.v3","Content-Type":"application/json"}
+2026-05-31 07:02:32 INFO  BaseTest:49 - è¯·æ±‚å‚æ•°:{"mobile_phone":"13323231111","pwd":"12345678"}
+2026-05-31 07:02:34 INFO  BaseTest:83 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:02:34 INFO  BaseTest:84 - å“åº”çŠ¶æ€ç :200
+2026-05-31 07:02:34 INFO  BaseTest:85 - å“åº”æ—¶é—´:926ms
+2026-05-31 07:02:34 INFO  BaseTest:86 - å“åº”å¤´:[Content-Type=application/json;charset=UTF-8, Transfer-Encoding=chunked, Date=Sat, 30 May 2026 23:02:34 GMT]
+2026-05-31 07:02:34 INFO  BaseTest:87 - å“åº”ä½“:{"code":0,"msg":"OK","data":{"id":6,"leave_amount":3.124603973E7,"mobile_phone":"13323231111","reg_name":"é»‘é•¿ç›´6","reg_time":"2023-02-14 13:34:46.0","type":1,"token_info":{"token_type":"Bearer","expires_in":"2026-05-31 07:07:34","token":"eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjYsImV4cCI6MTc4MDE4MjQ1NH0.wcGzFsPWEA759rYhwePPmFCQDl5a8rYS-W8PcuizqQBh2L-1Ylra4Glq_0OJHuKE4jE9Yx65gnLC39E-9C1XRg"}},"copyright":"Copyright æŸ æª¬ç­ Â© 2017-2020 æ¹–å—çœé›¶æª¬ä¿¡æ¯æŠ€æœ¯æœ‰é™å…¬å¸ All Rights Reserved"}
+2026-05-31 07:02:34 INFO  BaseTest:195 - =================å“åº”æ–­è¨€=================
+2026-05-31 07:02:34 INFO  BaseTest:202 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€200ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:02:34 INFO  BaseTest:215 - å“åº”å­—æ®µæ–­è¨€ï¼Œæå–å“åº”å­—æ®µã€msgã€‘å®é™…å€¼ã€OKã€‘æœŸæœ›å€¼ã€OKã€‘
+2026-05-31 07:02:34 INFO  BaseTest:169 - =================æå–å“åº”=================
+2026-05-31 07:02:34 INFO  BaseTest:183 - å˜é‡å:memberIdï¼Œå˜é‡å€¼:6
+2026-05-31 07:02:34 INFO  BaseTest:183 - å˜é‡å:tokenï¼Œå˜é‡å€¼:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjYsImV4cCI6MTc4MDE4MjQ1NH0.wcGzFsPWEA759rYhwePPmFCQDl5a8rYS-W8PcuizqQBh2L-1Ylra4Glq_0OJHuKE4jE9Yx65gnLC39E-9C1XRg
+2026-05-31 07:02:34 INFO  BaseTest:45 - =================è¯·æ±‚ä¿¡æ¯=================
+2026-05-31 07:02:34 INFO  BaseTest:46 - è¯·æ±‚æ–¹æ³•:post
+2026-05-31 07:02:34 INFO  BaseTest:47 - è¯·æ±‚åœ°å€:http://api.lemonban.com:8788/futureloan/member/recharge
+2026-05-31 07:02:34 INFO  BaseTest:48 - è¯·æ±‚å¤´:{"X-Lemonban-Media-Type":"lemonban.v3","Content-Type":"application/json","Authorization":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjYsImV4cCI6MTc4MDE4MjQ1NH0.wcGzFsPWEA759rYhwePPmFCQDl5a8rYS-W8PcuizqQBh2L-1Ylra4Glq_0OJHuKE4jE9Yx65gnLC39E-9C1XRg"}
+2026-05-31 07:02:34 INFO  BaseTest:49 - è¯·æ±‚å‚æ•°:{"member_id": 6,"amount": 10000.0,"timestamp": 1780182154,"sign": "poi3opj9ENNRcOj80mntiEdBoH3UbhikboYfhPtj4mulk+mnVI0xq8WptHj8cdZmD0RPRUDkFCsF
+jLBZFU0+afL49pEdYRGhjoCbgtO2bgEV6BTKozm9lxT8OM+F6+jEBirzGNOF9ZHslDBt4+wv3MOS
+kjU5ZzO/V10H5Gl5z2M=
+"}
+2026-05-31 07:02:34 INFO  BaseTest:83 - =================å“åº”ä¿¡æ¯=================
+2026-05-31 07:02:34 INFO  BaseTest:84 - å“åº”çŠ¶æ€ç :200
+2026-05-31 07:02:34 INFO  BaseTest:85 - å“åº”æ—¶é—´:101ms
+2026-05-31 07:02:34 INFO  BaseTest:86 - å“åº”å¤´:[Content-Type=application/json;charset=UTF-8, Transfer-Encoding=chunked, Date=Sat, 30 May 2026 23:02:34 GMT]
+2026-05-31 07:02:34 INFO  BaseTest:87 - å“åº”ä½“:{"code":0,"msg":"OK","data":{"id":6,"leave_amount":3.125603973E7,"mobile_phone":"13323231111","reg_name":"é»‘é•¿ç›´6","reg_time":"2023-02-14 13:34:46.0","type":1},"copyright":"Copyright æŸ æª¬ç­ Â© 2017-2020 æ¹–å—çœé›¶æª¬ä¿¡æ¯æŠ€æœ¯æœ‰é™å…¬å¸ All Rights Reserved"}
+2026-05-31 07:02:34 INFO  BaseTest:195 - =================å“åº”æ–­è¨€=================
+2026-05-31 07:02:34 INFO  BaseTest:202 - httpå“åº”çŠ¶æ€ç æ–­è¨€ï¼Œå®é™…å€¼ã€200ã€‘æœŸæœ›å€¼ã€200ã€‘
+2026-05-31 07:02:34 INFO  BaseTest:215 - å“åº”å­—æ®µæ–­è¨€ï¼Œæå–å“åº”å­—æ®µã€msgã€‘å®é™…å€¼ã€OKã€‘æœŸæœ›å€¼ã€OKã€‘
+2026-05-31 20:34:47 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:34:47 INFO  BaseTest:46 - ÇëÇó·½·¨:post
+2026-05-31 20:34:47 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/login
+2026-05-31 20:34:47 INFO  BaseTest:48 - ÇëÇóÍ·:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 20:34:47 INFO  BaseTest:49 - ÇëÇó²ÎÊı:{"principal":"lemon_auto","credentials":"lemon123456","appType":3,"loginType":0}
+2026-05-31 20:34:50 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:34:50 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:200
+2026-05-31 20:34:50 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:1180ms
+2026-05-31 20:34:50 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Set-Cookie=JSESSIONID=6635FEAC67C3E2EED5FB13A4B08BEDCE; Path=/; HttpOnly, Content-Type=application/json;charset=UTF-8, Content-Length=319, Date=Sun, 31 May 2026 12:34:50 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 20:34:50 INFO  BaseTest:87 - ÏìÓ¦Ìå:{"access_token":"3746ee84-f374-4993-b78c-c4fab6984ff1","token_type":"bearer","refresh_token":"41941147-0f16-41cf-b784-746912c81d97","expires_in":1295999,"pic":"http://shop.lemonban.com:8108/2026/05/a2719040f1734dfb8cb35a3c41185d6a.png","userId":"02419b7f18ef43af87eb28366d84479e","nickName":"lemon_auto","enabled":true}
+2026-05-31 20:34:50 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:34:50 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾200¡¿ÆÚÍûÖµ¡¾200¡¿
+2026-05-31 20:34:52 INFO  BaseTest:215 - ÏìÓ¦×Ö¶Î¶ÏÑÔ£¬ÌáÈ¡ÏìÓ¦×Ö¶Î¡¾nickName¡¿Êµ¼ÊÖµ¡¾lemon_auto¡¿ÆÚÍûÖµ¡¾lemon_auto¡¿
+2026-05-31 20:34:52 INFO  BaseTest:215 - ÏìÓ¦×Ö¶Î¶ÏÑÔ£¬ÌáÈ¡ÏìÓ¦×Ö¶Î¡¾token_type¡¿Êµ¼ÊÖµ¡¾bearer¡¿ÆÚÍûÖµ¡¾bearer¡¿
+2026-05-31 20:34:52 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:34:52 INFO  BaseTest:46 - ÇëÇó·½·¨:Post
+2026-05-31 20:34:52 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/login
+2026-05-31 20:34:52 INFO  BaseTest:48 - ÇëÇóÍ·:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 20:34:52 INFO  BaseTest:49 - ÇëÇó²ÎÊı:{"principal":"lemon_auto","credentials":"lemon123","appType":3,"loginType":0}
+2026-05-31 20:34:52 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:34:52 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:400
+2026-05-31 20:34:52 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:373ms
+2026-05-31 20:34:52 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sun, 31 May 2026 12:34:52 GMT, Connection=close]
+2026-05-31 20:34:52 INFO  BaseTest:87 - ÏìÓ¦Ìå:ÕËºÅ»òÃÜÂë²»ÕıÈ·
+2026-05-31 20:34:52 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:34:52 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾400¡¿ÆÚÍûÖµ¡¾400¡¿
+2026-05-31 20:34:52 INFO  BaseTest:208 - ÏìÓ¦ÌåÎÄ±¾¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿ÆÚÍûÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿
+2026-05-31 20:34:52 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:34:52 INFO  BaseTest:46 - ÇëÇó·½·¨:POST
+2026-05-31 20:34:52 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/login
+2026-05-31 20:34:52 INFO  BaseTest:48 - ÇëÇóÍ·:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 20:34:52 INFO  BaseTest:49 - ÇëÇó²ÎÊı:{"principal":"","credentials":"lemon123","appType":3,"loginType":0}
+2026-05-31 20:34:52 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:34:52 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:400
+2026-05-31 20:34:52 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:122ms
+2026-05-31 20:34:52 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sun, 31 May 2026 12:34:52 GMT, Connection=close]
+2026-05-31 20:34:52 INFO  BaseTest:87 - ÏìÓ¦Ìå:ÕËºÅ»òÃÜÂë²»ÕıÈ·
+2026-05-31 20:34:52 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:34:52 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾400¡¿ÆÚÍûÖµ¡¾400¡¿
+2026-05-31 20:34:52 INFO  BaseTest:208 - ÏìÓ¦ÌåÎÄ±¾¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿ÆÚÍûÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿
+2026-05-31 20:34:52 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:34:52 INFO  BaseTest:46 - ÇëÇó·½·¨:POST
+2026-05-31 20:34:52 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/login
+2026-05-31 20:34:52 INFO  BaseTest:48 - ÇëÇóÍ·:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 20:34:52 INFO  BaseTest:49 - ÇëÇó²ÎÊı:{"principal":"lemonlemon666","credentials":"lemon123","appType":3,"loginType":0}
+2026-05-31 20:34:52 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:34:52 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:400
+2026-05-31 20:34:52 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:119ms
+2026-05-31 20:34:52 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sun, 31 May 2026 12:34:52 GMT, Connection=close]
+2026-05-31 20:34:52 INFO  BaseTest:87 - ÏìÓ¦Ìå:ÕËºÅ»òÃÜÂë²»ÕıÈ·
+2026-05-31 20:34:52 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:34:52 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾400¡¿ÆÚÍûÖµ¡¾400¡¿
+2026-05-31 20:34:52 INFO  BaseTest:208 - ÏìÓ¦ÌåÎÄ±¾¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿ÆÚÍûÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿
+2026-05-31 20:34:52 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:34:52 INFO  BaseTest:46 - ÇëÇó·½·¨:POST
+2026-05-31 20:34:52 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/login
+2026-05-31 20:34:52 INFO  BaseTest:48 - ÇëÇóÍ·:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 20:34:52 INFO  BaseTest:49 - ÇëÇó²ÎÊı:{"principal":"lemon_auto","credentials":"","appType":3,"loginType":0}
+2026-05-31 20:34:53 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:34:53 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:400
+2026-05-31 20:34:53 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:341ms
+2026-05-31 20:34:53 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sun, 31 May 2026 12:34:52 GMT, Connection=close]
+2026-05-31 20:34:53 INFO  BaseTest:87 - ÏìÓ¦Ìå:ÕËºÅ»òÃÜÂë²»ÕıÈ·
+2026-05-31 20:34:53 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:34:53 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾400¡¿ÆÚÍûÖµ¡¾400¡¿
+2026-05-31 20:34:53 INFO  BaseTest:208 - ÏìÓ¦ÌåÎÄ±¾¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿ÆÚÍûÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿
+2026-05-31 20:34:53 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:34:53 INFO  BaseTest:46 - ÇëÇó·½·¨:POST
+2026-05-31 20:34:53 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/login
+2026-05-31 20:34:53 INFO  BaseTest:48 - ÇëÇóÍ·:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 20:34:53 INFO  BaseTest:49 - ÇëÇó²ÎÊı:{"principal":"lemon_auto111111111111111","credentials":"lemon123456","appType":3,"loginType":0}
+2026-05-31 20:34:53 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:34:53 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:400
+2026-05-31 20:34:53 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:118ms
+2026-05-31 20:34:53 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sun, 31 May 2026 12:34:52 GMT, Connection=close]
+2026-05-31 20:34:53 INFO  BaseTest:87 - ÏìÓ¦Ìå:ÕËºÅ»òÃÜÂë²»ÕıÈ·
+2026-05-31 20:34:53 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:34:53 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾400¡¿ÆÚÍûÖµ¡¾400¡¿
+2026-05-31 20:34:53 INFO  BaseTest:208 - ÏìÓ¦ÌåÎÄ±¾¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿ÆÚÍûÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿
+2026-05-31 20:37:41 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:37:41 INFO  BaseTest:46 - ÇëÇó·½·¨:post
+2026-05-31 20:37:41 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/login
+2026-05-31 20:37:41 INFO  BaseTest:48 - ÇëÇóÍ·:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 20:37:41 INFO  BaseTest:49 - ÇëÇó²ÎÊı:{"principal":"lemon_auto","credentials":"lemon123456","appType":3,"loginType":0}
+2026-05-31 20:37:44 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:37:44 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:200
+2026-05-31 20:37:44 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:1034ms
+2026-05-31 20:37:44 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Set-Cookie=JSESSIONID=095753A5A6B98542E5D0DF1DD79C2CF7; Path=/; HttpOnly, Content-Type=application/json;charset=UTF-8, Content-Length=319, Date=Sun, 31 May 2026 12:37:44 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 20:37:44 INFO  BaseTest:87 - ÏìÓ¦Ìå:{"access_token":"c969079d-4d56-4178-a520-79a36a2133b7","token_type":"bearer","refresh_token":"99deb422-30e9-4722-be29-5992df065dea","expires_in":1295999,"pic":"http://shop.lemonban.com:8108/2026/05/a2719040f1734dfb8cb35a3c41185d6a.png","userId":"02419b7f18ef43af87eb28366d84479e","nickName":"lemon_auto","enabled":true}
+2026-05-31 20:37:44 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:37:44 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾200¡¿ÆÚÍûÖµ¡¾200¡¿
+2026-05-31 20:37:45 INFO  BaseTest:215 - ÏìÓ¦×Ö¶Î¶ÏÑÔ£¬ÌáÈ¡ÏìÓ¦×Ö¶Î¡¾nickName¡¿Êµ¼ÊÖµ¡¾lemon_auto¡¿ÆÚÍûÖµ¡¾lemon_auto¡¿
+2026-05-31 20:37:45 INFO  BaseTest:215 - ÏìÓ¦×Ö¶Î¶ÏÑÔ£¬ÌáÈ¡ÏìÓ¦×Ö¶Î¡¾token_type¡¿Êµ¼ÊÖµ¡¾bearer¡¿ÆÚÍûÖµ¡¾bearer¡¿
+2026-05-31 20:37:46 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:37:46 INFO  BaseTest:46 - ÇëÇó·½·¨:Post
+2026-05-31 20:37:46 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/login
+2026-05-31 20:37:46 INFO  BaseTest:48 - ÇëÇóÍ·:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 20:37:46 INFO  BaseTest:49 - ÇëÇó²ÎÊı:{"principal":"lemon_auto","credentials":"lemon123","appType":3,"loginType":0}
+2026-05-31 20:37:46 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:37:46 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:400
+2026-05-31 20:37:46 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:205ms
+2026-05-31 20:37:46 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sun, 31 May 2026 12:37:46 GMT, Connection=close]
+2026-05-31 20:37:46 INFO  BaseTest:87 - ÏìÓ¦Ìå:ÕËºÅ»òÃÜÂë²»ÕıÈ·
+2026-05-31 20:37:46 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:37:46 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾400¡¿ÆÚÍûÖµ¡¾400¡¿
+2026-05-31 20:37:46 INFO  BaseTest:208 - ÏìÓ¦ÌåÎÄ±¾¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿ÆÚÍûÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿
+2026-05-31 20:37:46 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:37:46 INFO  BaseTest:46 - ÇëÇó·½·¨:POST
+2026-05-31 20:37:46 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/login
+2026-05-31 20:37:46 INFO  BaseTest:48 - ÇëÇóÍ·:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 20:37:46 INFO  BaseTest:49 - ÇëÇó²ÎÊı:{"principal":"","credentials":"lemon123","appType":3,"loginType":0}
+2026-05-31 20:37:46 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:37:46 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:400
+2026-05-31 20:37:46 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:125ms
+2026-05-31 20:37:46 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sun, 31 May 2026 12:37:46 GMT, Connection=close]
+2026-05-31 20:37:46 INFO  BaseTest:87 - ÏìÓ¦Ìå:ÕËºÅ»òÃÜÂë²»ÕıÈ·
+2026-05-31 20:37:46 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:37:46 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾400¡¿ÆÚÍûÖµ¡¾400¡¿
+2026-05-31 20:37:46 INFO  BaseTest:208 - ÏìÓ¦ÌåÎÄ±¾¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿ÆÚÍûÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿
+2026-05-31 20:37:46 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:37:46 INFO  BaseTest:46 - ÇëÇó·½·¨:POST
+2026-05-31 20:37:46 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/login
+2026-05-31 20:37:46 INFO  BaseTest:48 - ÇëÇóÍ·:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 20:37:46 INFO  BaseTest:49 - ÇëÇó²ÎÊı:{"principal":"lemonlemon666","credentials":"lemon123","appType":3,"loginType":0}
+2026-05-31 20:37:46 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:37:46 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:400
+2026-05-31 20:37:46 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:107ms
+2026-05-31 20:37:46 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sun, 31 May 2026 12:37:46 GMT, Connection=close]
+2026-05-31 20:37:46 INFO  BaseTest:87 - ÏìÓ¦Ìå:ÕËºÅ»òÃÜÂë²»ÕıÈ·
+2026-05-31 20:37:46 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:37:46 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾400¡¿ÆÚÍûÖµ¡¾400¡¿
+2026-05-31 20:37:46 INFO  BaseTest:208 - ÏìÓ¦ÌåÎÄ±¾¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿ÆÚÍûÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿
+2026-05-31 20:37:46 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:37:46 INFO  BaseTest:46 - ÇëÇó·½·¨:POST
+2026-05-31 20:37:46 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/login
+2026-05-31 20:37:46 INFO  BaseTest:48 - ÇëÇóÍ·:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 20:37:46 INFO  BaseTest:49 - ÇëÇó²ÎÊı:{"principal":"lemon_auto","credentials":"","appType":3,"loginType":0}
+2026-05-31 20:37:46 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:37:46 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:400
+2026-05-31 20:37:46 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:187ms
+2026-05-31 20:37:46 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sun, 31 May 2026 12:37:46 GMT, Connection=close]
+2026-05-31 20:37:46 INFO  BaseTest:87 - ÏìÓ¦Ìå:ÕËºÅ»òÃÜÂë²»ÕıÈ·
+2026-05-31 20:37:46 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:37:46 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾400¡¿ÆÚÍûÖµ¡¾400¡¿
+2026-05-31 20:37:46 INFO  BaseTest:208 - ÏìÓ¦ÌåÎÄ±¾¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿ÆÚÍûÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿
+2026-05-31 20:37:46 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:37:46 INFO  BaseTest:46 - ÇëÇó·½·¨:POST
+2026-05-31 20:37:46 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/login
+2026-05-31 20:37:46 INFO  BaseTest:48 - ÇëÇóÍ·:{"Content-Type":"application/json; charset=UTF-8"}
+2026-05-31 20:37:46 INFO  BaseTest:49 - ÇëÇó²ÎÊı:{"principal":"lemon_auto111111111111111","credentials":"lemon123456","appType":3,"loginType":0}
+2026-05-31 20:37:46 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:37:46 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:400
+2026-05-31 20:37:46 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:120ms
+2026-05-31 20:37:46 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json;charset=UTF-8, Content-Length=24, Date=Sun, 31 May 2026 12:37:46 GMT, Connection=close]
+2026-05-31 20:37:46 INFO  BaseTest:87 - ÏìÓ¦Ìå:ÕËºÅ»òÃÜÂë²»ÕıÈ·
+2026-05-31 20:37:46 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:37:46 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾400¡¿ÆÚÍûÖµ¡¾400¡¿
+2026-05-31 20:37:46 INFO  BaseTest:208 - ÏìÓ¦ÌåÎÄ±¾¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿ÆÚÍûÖµ¡¾ÕËºÅ»òÃÜÂë²»ÕıÈ·¡¿
+2026-05-31 20:41:59 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:41:59 INFO  BaseTest:46 - ÇëÇó·½·¨:get
+2026-05-31 20:41:59 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/search/searchProdPage
+2026-05-31 20:41:59 INFO  BaseTest:48 - ÇëÇóÍ·:null
+2026-05-31 20:41:59 INFO  BaseTest:49 - ÇëÇó²ÎÊı:?prodName=duck
+2026-05-31 20:42:01 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:42:01 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:200
+2026-05-31 20:42:01 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:960ms
+2026-05-31 20:42:01 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sun, 31 May 2026 12:42:01 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 20:42:02 INFO  BaseTest:87 - ÏìÓ¦Ìå:{"records":[],"total":0,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"hitCount":false,"countId":null,"maxLimit":null,"searchCount":true,"pages":0}
+2026-05-31 20:42:02 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:42:02 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾200¡¿ÆÚÍûÖµ¡¾200¡¿
+2026-05-31 20:42:03 INFO  BaseTest:45 - =================ÇëÇóĞÅÏ¢=================
+2026-05-31 20:42:03 INFO  BaseTest:46 - ÇëÇó·½·¨:get
+2026-05-31 20:42:03 INFO  BaseTest:47 - ÇëÇóµØÖ·:http://mall.lemonban.com:8107/search/searchProdPage
+2026-05-31 20:42:03 INFO  BaseTest:48 - ÇëÇóÍ·:null
+2026-05-31 20:42:03 INFO  BaseTest:49 - ÇëÇó²ÎÊı:?prodName=XXXXX
+2026-05-31 20:42:03 INFO  BaseTest:83 - =================ÏìÓ¦ĞÅÏ¢=================
+2026-05-31 20:42:03 INFO  BaseTest:84 - ÏìÓ¦×´Ì¬Âë:200
+2026-05-31 20:42:03 INFO  BaseTest:85 - ÏìÓ¦Ê±¼ä:112ms
+2026-05-31 20:42:03 INFO  BaseTest:86 - ÏìÓ¦Í·:[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=1; mode=block, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=application/json, Transfer-Encoding=chunked, Date=Sun, 31 May 2026 12:42:03 GMT, Keep-Alive=timeout=60, Connection=keep-alive]
+2026-05-31 20:42:03 INFO  BaseTest:87 - ÏìÓ¦Ìå:{"records":[],"total":0,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"hitCount":false,"countId":null,"maxLimit":null,"searchCount":true,"pages":0}
+2026-05-31 20:42:03 INFO  BaseTest:195 - =================ÏìÓ¦¶ÏÑÔ=================
+2026-05-31 20:42:03 INFO  BaseTest:202 - httpÏìÓ¦×´Ì¬Âë¶ÏÑÔ£¬Êµ¼ÊÖµ¡¾200¡¿ÆÚÍûÖµ¡¾200¡¿
+2026-05-31 20:42:03 INFO  BaseTest:215 - ÏìÓ¦×Ö¶Î¶ÏÑÔ£¬ÌáÈ¡ÏìÓ¦×Ö¶Î¡¾records.size()¡¿Êµ¼ÊÖµ¡¾0¡¿ÆÚÍûÖµ¡¾0¡¿
